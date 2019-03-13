@@ -123,10 +123,11 @@ In your environment, you should avoid the following configurations:
 
 - **Block access** - This configuration blocks your entire organization, which is definitely not a good idea.
 
-- **Require compliant device** - For users that have not enrolled their devices yet, this policy blocks all access including access to the Intune portal. If you are an administrator without an enrolled device, this policy blocks you from getting back into the Azure portal to change the policy.
+- **Require compliant device** - If you are an administrator without an enrolled device, this policy blocks you from getting back into the Azure portal to change the policy. This may stop directory sync process on Azure AD Connect if directory sync account is in scope.
 
-- **Require domain join** - This policy block access has also the potential to block access for all users in your organization if you don't have a domain-joined device yet.
+- **Require domain join** - This policy block access has also the potential to block access for all users in your organization if you don't have a domain-joined device yet. This may stop directory sync process on Azure AD Connect if directory sync account is in scope.
 
+- **Require MFA** - This may stop directory sync process on Azure AD Connect if directory sync account is in scope.
 
 **For all users, all cloud apps, all device platforms:**
 
