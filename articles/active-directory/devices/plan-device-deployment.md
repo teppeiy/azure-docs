@@ -93,7 +93,7 @@ The following information can help you decide which integration methods to use.
 Use this tree to determine options for organization-owned devices. 
 
 > [!NOTE]
-> Personal or bring-your-own device (BYOD) scenarios are not pictured in this diagram. They  always result in Azure AD registration.
+> Personal or bring-your-own device (BYOD) scenarios are not pictured in this diagram. They  always result in Azure AD registered.
 
  ![Decision tree](./media/plan-device-deployment/flowchart.png)
 
@@ -125,7 +125,7 @@ Compliant device| ![check](./media/plan-device-deployment/check.png) |
 | Enterprise state roaming across devices| | ![check](./media/plan-device-deployment/check.png)| ![check](./media/plan-device-deployment/check.png) |
 
 
-## Azure AD Registration 
+## Azure AD registered 
 
 Registered devices are often managed with [Microsoft Intune](https://docs.microsoft.com/mem/intune/enrollment/device-enrollment). Devices are enrolled in Intune in a number of ways, depending on the operating system. 
 
